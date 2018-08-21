@@ -1,5 +1,5 @@
-@import url(fonts.googleapis.com/css?family=Open+Sans:400,700);
-@import url(fonts.googleapis.com/css?family=Lato:400,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
 
 *, *:before, *:after {
   -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
@@ -198,7 +198,6 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   box-shadow: 0px 6px #c0392b;
   border-radius: 0px 0px 4px 4px;
 }
-
 
 .tab {
   display: inline-block;
@@ -451,6 +450,10 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   background-color: #5bc0de;
 }
 
+.label-inf {
+  background-color: green;
+}
+
 .label-info[href]:hover,
 .label-info[href]:focus {
   background-color: #31b0d5;
@@ -606,6 +609,22 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   -webkit-animation: none;
   background-image: none;
 }
+
+foot{
+  text-align: center;
+  margin-top: 2em;
+  padding: 10px;
+  background-color: blue;
+  box-shadow: 0px 4px #ccc;
+  color: #333;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+foot p{
+  margin-bottom: 0px;
+}
+
 /* Footer */
 footer{
   text-align: center;
